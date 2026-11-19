@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+</head>
+<body>
+
+    <nav><a href="contacts.html">Контакти</a><br>
+            <a href="index.html"> Головна </a><br>
+            <a href="#tvorchist">Моя творчість</a><br>
+            <a href="#Lil-Peep">Галерея Lil Peep</a>
+    </nav>
+
+    <h1>Контакти</h1>
+
+    <form>
+        <label for="name">Ваше ім'я:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br><br>
+
+        <label for="email">Електронна пошта:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for="topic">Тема звернення:</label>
+        <select id="topic" name="topic" required>
+            <option value="">Оберіть тему</option>
+            <option value="question">Питання</option>
+            <option value="feedback">Відгук</option>
+            <option value="other">Інше</option>
+        </select>
+
+        <br><br>
+
+        <label for="message">Ваше повідомлення:</label>
+        <br>
+        <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+
+        <br><br>
+
+        <button type="submit">Відправити</button>
+    </form>
+
+</body>
+</html>
